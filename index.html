@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37f0c20f4f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="container" class="container">
+        <div class="header">
+            <h1>Event 1</h1>
+        </div>
+        <h2>Number of available seats:  23</h2>
+        <div class="middle">
+            <div class="left">
+                <nav id="left-nav-bar">
+                    <div class="box">
+                        <img src="https://image.shutterstock.com/image-vector/event-schedule-icon-600w-606709283.jpg" alt="image" height="100" width="100">
+                    </div>
+                </nav>
+            </div>
+            <div class="right">
+                <form>
+                    <lable for="event">Name :</lable>
+                    <input type="text" name="name"><br>
+                    <lable for="event">Email Id :</lable>
+                    <input type="Email" name="email"><br>
+                    <lable for="event">Phone No. :</lable>
+                    <input type="phone" name="phone"><br>
+                    <lable for="number">Number of seats :</lable>
+                    <select name="number">
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                    </select><br>
+                    <lable for="event">Name of Attendee 2 :</lable>
+                    <input type="text" name="name"><br>
+                    <button onclick="submit()">Submit</button>
+                    <button onclick="myFunction()">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
